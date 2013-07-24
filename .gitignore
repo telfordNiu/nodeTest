@@ -1,2 +1,10 @@
+###############
+#    folder   #
+###############
 mongoDB/node_modules
-logs/
+
+
+###############
+#  fixed file #
+###############
+*.log
