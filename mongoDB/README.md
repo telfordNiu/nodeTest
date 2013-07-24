@@ -1,8 +1,11 @@
 #用mongoskin对mongoDB进行操作Demo
+##需要软件
 
-启动方式：
-```
-cd ~/mongoDB 
-npm install
-```
+[mongodb](http://www.mongodb.org/)
+
+	
+##启动方式：
+	cd ~/mongoDB 
+	npm install
+
  
