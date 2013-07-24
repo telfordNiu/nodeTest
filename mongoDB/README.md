@@ -5,6 +5,7 @@
 
 	
 ##启动方式：
+	在 ~/mongoDB/src/ 下新建 logs文件夹
 	cd ~/mongoDB 
 	npm install
 
