@@ -1,0 +1,11 @@
+{
+    "name": "operateMongoDB",
+    "version": "0.0.1",
+    "private": true,
+    "dependencies": {
+        "log4js": "~0.6.6",
+        "moment": "~2.0.0",
+        "mongoskin": "~0.6.0",
+        "underscore": "~1.4.4"
+    }
+}
