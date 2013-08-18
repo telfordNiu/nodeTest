@@ -10,7 +10,7 @@
       },
       dist: {
         src: [jsFiles],
-        dest: 'dist/app.js'
+        dest: 'dest/app.js'
       }
     },
     uglify: {
@@ -19,7 +19,7 @@
       },
       dist: {
         files: {
-          'dist/app.min.js': ['<%= concat.dist.dest %>']
+          'dest/app.min.js': ['<%= concat.dist.dest %>']
         }
       }
     },
