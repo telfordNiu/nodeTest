@@ -1,0 +1,13 @@
+###############
+#    folder   #
+###############
+node_modules
+dist
+coffee\dest
+
+
+
+###############
+#  fixed file #
+###############
+*.log
