@@ -2,6 +2,7 @@
 #    folder   #
 ###############
 mongoDB/node_modules
+nodeTest/node_modules
 
 
 ###############
