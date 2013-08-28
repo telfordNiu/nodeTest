@@ -8,9 +8,13 @@
 
 ## 运行项目 
 1. cd unitTest/ 
-2. * 运行检测库写的文件用 node fileName
-   * 运行 test文件夹下的用 mocha 
-   		* 用其他格式mocha -R name输出，如mocha -R Nyan。跟多见  http://visionmedia.github.io/mocha/的Reporters
+2. 
+   * 运行检测库写的文件用 node fileName
+   * 运行test文件夹下 
+   		BDD文件夹下的用 mocha -R Spec test/BDD/ 
+   		TDD文件夹下的用 mocha --ui  tdd -R Spec test/TDD/ 
+   > 用其他格式mocha -R name输出测试报告，如mocha -R Nyan。跟多见  http://visionmedia.github.io/mocha/的Reporters				
+
 
 ## 文件说明
 * nodeAssert.js 用node自带的检验库写的测试用例

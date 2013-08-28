@@ -8,6 +8,8 @@ var user = {
   , pets: ['tobi', 'loki', 'jane', 'bandit'],
   age:35
 };
+var expect = chai.expect;
+
 true.should.be.ok;// val== true
 (1).should.be.ok;//必须要加()
 
@@ -35,3 +37,23 @@ false.should.be.false; //Assert === false:
 
 //-------------------chai should end -------------------------
 
+
+expect(true).to.be.ok;
+expect(1).to.be.ok;
+
+expect(true).to.be.true;
+expect('1').to.not.be.true;
+
+expect({ foo: 'bar' }).be.eql({ foo: 'bar' });
+expect('4').not.be.equal(4);
+
+expect(user).to.have.property('name', 'tj');
+expect(user).to.have.property('name').equal('tj');
+expect(user).to.have.property('pets').with.lengthOf(4);
+expect(user).to.have.property('pets').with.eql(['tobi', 'loki', 'jane', 'bandit']);
+expect(user).to.be.a('object')
+
+expect(user.age).to.be.within(5, 50);
+expect(user.age).to.be.above(5).and.below(50);
+
+//-------------------chai expect end -------------------------
