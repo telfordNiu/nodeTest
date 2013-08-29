@@ -13,39 +13,39 @@
 * [eco](https://github.com/sstephenson/eco) 页面模板,类似ejs。与ejs的不同点是：逻辑部分用CoffeeScript而不是javascript 
 * [jade](https://github.com/visionmedia/jade) 页面模板 源自ruby的[haml](http://haml.info/) 比ejs优雅简洁，但把html转换成jade要花一番功夫。 
 * [coffeecup](https://github.com/gradus/coffeecup) 页面模板 风格有些像 jade,但里面的内容各种用coffee。    
-----
+    
 * [Mongoskin](https://github.com/kissjs/node-mongoskin) mongoDB驱动。是在[mongodb-native](https://github.com/mongodb/node-mongodb-native)的基础上做的封装。
 * [mysql](https://github.com/felixge/node-mysql) mysql驱动。    
-----
+    
 * [log4js](https://github.com/nomiddlename/log4js-node) 日志。    
-----  
+      
 * [cheerio](https://github.com/MatthewMueller/cheerio) 解析html文档。解析的结果可以用jQuery的写法来筛选想要的dom元素。
 * [JSDOM](https://github.com/tmpvar/jsdom) 和cheerio类似。但更强大。但要在windows安装是各种麻烦。
 * [nodegrass](https://github.com/scottkiss/nodegrass) 抓取某地址的页面    
-----  
+      
 * [docpad](http://docpad.org/) 静态站点生成系统，一般是用来做博客
 * [wintersmith](https://github.com/jnordberg/wintersmith) 同上    
-----  
+      
 * [GeoIP-lite](https://github.com/bluesmoon/node-geoip) 根据ip获得该ip所在的城市和国家。    
-----
+    
 
 ### 基础拓展
 * [underscore](https://github.com/jashkenas/underscore) javascript帮助库 
 * [moment](http://momentjs.com/) 时间操作
 
 ### 代码组织
-[async](https://github.com/caolan/async) 控制异步流程。如文件读写，数据库操作等
-[promise](https://github.com/then/promise) 同上
+* [async](https://github.com/caolan/async) 控制异步流程。如文件读写，数据库操作等
+* [promise](https://github.com/then/promise) 同上
 
 
 ### 测试
 * [mocha](http://visionmedia.github.io/mocha/) 测试框架,断言库可自由选择。用coffee就要用mocha(摩卡),哈哈~
 * [Jasmine](https://github.com/pivotal/jasmine) BDD测试框架    
-----
+    
 * [chai.js](https://github.com/chaijs/chai)  BDD / TDD 断言库。支持 should.js,expect.js,assert，但不支持should.js的某些写法。
 * [should.js](https://github.com/visionmedia/should.js) 断言库。可读性很强。
 * [expect.js](https://github.com/LearnBoost/expect.js) 断言库。可读性很强，在should.js基础上构建。    
-----
+    
 * [zombie.js](http://zombie.labnotes.org/) 构造浏览器进行测试(headless browser)
 * [uiTest](https://npmjs.org/package/uitest) 前端UI测试框架  
 
