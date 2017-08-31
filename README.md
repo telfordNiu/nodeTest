@@ -39,7 +39,7 @@
 
 
 ### 测试
-* [mocha](http://visionmedia.github.io/mocha/) 测试框架,断言库可自由选择。用coffee就要用mocha(摩卡),哈哈~
+* [mocha](http://mochajs.org/) 测试框架,断言库可自由选择。用coffee就要用mocha(摩卡),哈哈~
 * [Jasmine](https://github.com/pivotal/jasmine) BDD测试框架    
     
 * [chai.js](https://github.com/chaijs/chai)  BDD / TDD 断言库。支持 should.js,expect.js,assert，但不支持should.js的某些写法。
